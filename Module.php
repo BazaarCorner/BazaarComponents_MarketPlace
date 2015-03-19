@@ -26,22 +26,13 @@
 
 namespace BazaarMarket;
 
-use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
-use Zend\ModuleManager\Feature\ControllerProviderInterface;
-use Zend\ModuleManager\Feature\ServiceProviderInterface;
-use Zend\ModuleManager\Feature\ConfigProviderInterface;
-
 /**
  * BazaarMarket\Module
  *
  * @package BazaarMarket
  * @author Gab Amba <gamba@gabbydgab.com>
  */
-class Module implements 
-    AutoloaderProviderInterface,
-    ServiceProviderInterface,
-    ConfigProviderInterface,
-    ControllerProviderInterface
+class Module
 {
     public function getConfig()
     {
